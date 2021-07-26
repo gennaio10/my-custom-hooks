@@ -1,3 +1,24 @@
-# Notas
-Este repositorio contiene varios customHooks para ayudarme a mi y a quien le sirvan estos hooks.
-Asi mismo reutilizarlos y no escribirlos continuamente en cada proyecto React.
+# useForm
+
+Ejmplo de uso
+
+```
+    const initialForm = {
+        name: "",
+        email: "",
+        password: "",
+    }
+    const [ formValues, handleInputChange, reset ] = useForm(initialForm);
+
+    <input
+        type="text"
+        name="email"
+        className="form-control"
+        placeholder="email@email.com"
+        autoComplete="off"
+        value={email}
+        onChange={handleInputChange}
+    />
+```
+
+useForm() // Tener para su implementacion las propiedades name, value, onChange
