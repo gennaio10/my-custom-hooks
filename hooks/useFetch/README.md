@@ -3,9 +3,8 @@
 Ejmplo de uso
 
 ```
-  const { data, loading, error } = useFetch(
-    'https://www.breakingbadapi.com/api/quotes/1'
-  );
+  const url = 'endpoint de una api'
+  const { data, loading, error } = useFetch(url);
 ```
 
 useFetch() // Recibe URL para el consumo
