@@ -1,3 +1,11 @@
-# Notas
-Este repositorio contiene varios customHooks para ayudarme a mi y a quien le sirvan estos hooks.
-Asi mismo reutilizarlos y no escribirlos continuamente en cada proyecto React.
+# useFetch
+
+Ejmplo de uso
+
+```
+  const { data, loading, error } = useFetch(
+    'https://www.breakingbadapi.com/api/quotes/1'
+  );
+```
+
+useFetch() // Recibe URL para el consumo
